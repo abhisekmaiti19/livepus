@@ -31,7 +31,7 @@ SECRET_KEY = 'ah2hge!bia4amnwd$2le&resqs(s@75p%tl1@4q*n9m#bmen5z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['livepus.herokuapp.com']
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
