@@ -1,0 +1,196 @@
+section{
+	padding: 8vw 0;
+}
+
+.background_page_institution_login{
+	background: white;
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	background-size: cover;
+	overflow: hidden;
+	top:0vh;
+	
+}
+
+.background_page_institution_login .background_page_circle-1{
+	background: #FF0033;
+	width: 15vw;
+	height: 15vw;
+	border-radius: 50%;
+	position: relative;
+	float: right;
+	margin-right: 2vw;
+	margin-top: -16vh;
+}
+
+.background_page_institution_login .background-page-circle-2{
+	background: #FF0033;
+	width: 15vw;
+	height: 15vw;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0;
+}
+
+.background_page_institution_login .cover_page{
+	background: white;
+	width: 88%;
+	height: 78%;
+	position: absolute;
+	margin-left: 5.5vw;
+	top: 14vh;
+	box-shadow: 0.8vw 0.8vw 1.5vw 0 rgba(0,0,0,0.7),-0.8vw -0.8vw 1.5vw 0 rgba(0,0,0,0.6);
+	overflow: hidden;
+}
+
+.background_page_institution_login .cover_page .navigation_institution_loginpage{
+	width: 35%;
+	height: 8vh;
+	float: right;
+	background: none;
+}
+
+.background_page_institution_login .section-1 .navigation_institution_loginpage ul{
+	margin-right: 7vw;
+}
+
+.background_page_institution_login .cover_page .navigation_institution_loginpage ul li{
+	display: inline-block;
+    font-size: 2.2vw;
+    font-weight: bold;
+    margin-right: 0.8vw;
+    position: relative;
+    line-height: 5vh;
+}
+
+.background_page_institution_login .cover_page .navigation_institution_loginpage ul li a{
+    color:black;
+    text-decoration: none;
+}
+
+.background_page_institution_login .cover_page .navigation_institution_loginpage ul li a:hover{
+	background:#FF0033;
+}
+
+.background_page_institution_login .cover_page .cover_page_circle-3{
+	width: 18vw;
+	height: 18vw;
+	border-radius: 50%;
+	position: absolute;
+	background: #003366;
+	top:-19.3vh;
+	left:6vw;
+	opacity: 0.9;
+	float: right;
+}
+
+.background_page_institution_login .cover_page .heading{
+	font-family: serif;
+	font-size: 7vh;
+	margin-left: 25vw;
+	color: #FF0033;
+	font-weight: bold;
+	margin-top: 15vh;
+}
+ 
+.background_page_institution_login .cover_page .institute_login_form{
+	width: 43%;
+	height: 40%;
+	background: none;
+	margin-left: 5vw;
+	margin-top: 15vh;
+}
+
+ .background_page_institution_login .cover_page .institute_login_form form{
+    position: absolute;
+    font-weight: bold;
+    font-size: 4vh;
+    color: black;
+    margin-left: 40vw;
+    transform: translate(-50%,-50%);
+}
+.background_page_institution_login .cover_page .institute_login_form form input{
+	width: 80%;
+	margin-bottom: 0vh;
+	margin-left: 0.3vw;
+}
+input[type=text],input[type=password]{
+	border: none;
+	outline: none;
+	border: 0.4vh black dotted;
+	background: transparent;
+	border-radius: 5vh;
+	box-sizing: border-box;
+	font-size: 3.8vh;
+	padding: 0.7vw;
+	text-align: center;
+	margin-top: 5vh;
+
+}
+.background_page_institution_login .cover_page .sign_in_button{
+	width: 10vw;
+	height: 8vh;
+	background: skyblue;
+	color: white;
+	border:0.4vh black dotted;
+	border-radius: 5vh;
+	color: black;
+	margin-left: 30vw;
+	margin-top: 17vh;
+	font-size: 20px;
+}
+
+.background_page_institution_login .cover_page .sign_in_button:hover{
+	background:#FF0033;
+}
+
+.background_page_institution_login .cover_page  .institution_login_image{
+	width: 30vw;
+    height: 20vh;
+    background: none;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top:55vh;
+}
+.background_page_institution_login .cover_page .institution_login_image .institution_login_image_set{
+	width: 100%;
+	height: auto;
+}
+
+.background_page_institution_login .cover_page .button_box{
+	float: right;
+	width: 30%;
+	height: 25%;
+	background: none;
+}
+.background_page_institution_login .cover_page .button_box .teacher_login_button{
+	width: 20vw;
+	height: 8vh;
+	background: none;
+	color: white;
+	border:0.4vh black dotted;
+	border-radius: 5vh;
+	color: black;
+	font-size: 3vh;
+	margin-left: 1.5vw;
+}
+.background_page_institution_login .cover_page .button_box .teacher_login_button:hover{
+     background:skyblue;
+}
+.background_page_institution_login .cover_page .button_box .register_institute_button{
+	width: 23vw;
+	height: 8vh;
+	background: none;
+	color: white;
+	border:0.4vh black dotted;
+	border-radius: 5vh;
+	color: black;
+	font-size: 3vh;
+	margin-top: 5vh;
+	margin-right: 5vw;
+}
+.background_page_institution_login .cover_page .button_box .register_institute_button:hover{
+	background: #FF0033
+}

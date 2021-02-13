@@ -1,0 +1,441 @@
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("grid-outline.svg");
+}
+
+::-webkit-scrollbar {
+  width: 11px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FF623F;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+
+.navbar{
+  font-family: 'Roboto Slab', serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+@media only screen and (min-width:768px)
+{
+  .logo-livepus{
+    width:8rem;
+     height:auto;
+  }
+
+}
+@media only screen and (max-width:768px)
+{
+  .logo-livepus{
+    width:7rem;
+     height:auto;
+  }
+  .navbar{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+}
+
+
+.pulsingButton {
+width: 80px;
+text-align: center;
+display: block;
+box-shadow: 0 0 0 0 rgba(232, 76, 61, 0.7);
+border-radius: 10px;
+background-color: #EF4F4F;
+-webkit-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+-moz-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+-ms-animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+animation: pulsing 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+font-size:  20px;
+font-weight: normal;
+
+text-decoration: none !important;
+color: #FFF;
+transition: all 4s ease-in-out;
+}
+
+
+
+a.pulsingButton:hover {
+-webkit-animation: none;
+-moz-animation: none;
+-ms-animation: none;
+animation: none;
+color: yellow;
+}
+/* Animation */
+
+@-webkit-keyframes pulsing {
+to {
+  box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+}
+}
+
+@-moz-keyframes pulsing {
+to {
+  box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+}
+}
+
+@-ms-keyframes pulsing {
+to {
+  box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+}
+}
+
+@keyframes pulsing {
+to {
+  box-shadow: 0 0 0 30px rgba(232, 76, 61, 0);
+}
+}
+.heading-classname {
+  color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-align: center;
+}
+@media only screen and (min-width:768px)
+{
+  .heading-classname{
+    font-size: 40px;
+    padding-bottom: 0;
+    text-align: center;
+
+  }
+  .heading-classname-container{
+      width: 45%;
+      margin: 0 auto;
+      margin-top: 4vh;
+  }
+
+  .teacher-name
+  {
+    font-size: 25px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+  }
+ .start-class{
+   float: right;
+   margin-right: 6vw;
+   margin-top: 0;
+   font-size: 30px;
+   border-radius: 25px;
+   background-color: #FF623F;
+ }
+ .teachername{
+   font-size: 30px;
+   margin-left:40%;
+   color: rgba(0, 0, 0, 0.5);
+ }
+}
+
+.discussioncontainer
+{
+  margin: 4vh 7vw;
+  border: 1px solid #000000;
+
+}
+.text-head-discussion
+{
+  font-size: 30px;
+  color:#569AFF;
+  margin-left: 40%;
+}
+.head-discussion
+{
+  border: 1px solid #000000;
+}
+@media only screen and (min-width:768px)
+{
+  .studentdp{
+    width:120px;
+      height: 120px;
+      margin-left: 4vw;
+      margin-top: 3vh;
+    border-radius: 50%;
+    float: left;
+
+  }
+  .dicussioncontainerp
+  {
+    margin-top: 5vh;
+    margin-left: 10vw;
+    text-align: left;
+  }
+  .discussionhr{
+    margin:0 3vw;
+    border: 1.5px solid rgba(0,0,0,0.5);
+  }
+  .actualdiscussion{
+
+    height: 300px;
+    overflow: scroll;
+    border: 2px solid #ccc;
+    }
+    .formsendmesage{
+      margin-top: 2vh;
+      width: 60vw;
+      height: 40px;
+      border-radius: 25px;
+      margin-left: 8vw;
+      color: rgba(0, 0, 0, 0.5);
+      margin-bottom: 3vh;
+    }
+    .sending
+    {
+      float: right;
+      margin-top: 2vh;
+      margin-right: 8vw;
+      line-height: 25px;
+    }
+    .thumbs{
+      margin-left: 80%;
+      margin-bottom: 1vh;
+    }
+    .reply{
+      float: right;
+      margin-right: 7vw;
+      color: #000000;
+    }
+    .updatemain
+    {
+      background-color: #DAFFFB;
+      margin:8vh 0;
+      color: rgba(0,0,0,0.5);
+      margin-bottom: 0;
+    }
+    .updatehead
+    {
+      font-size: 30px;
+      text-align: center;
+      padding-top: 4vh;
+      padding-bottom:0;
+      color: #FF623F;
+    }
+    .holderupdate
+    {
+      margin:0 7vw;
+      margin-top: 5vh;
+      border: 1.5px solid #FF623F;
+    }
+    .updatetext{
+      margin: 2vh 4vw;
+      margin-bottom: 0;
+    }
+  /* ASSIGNMENT */
+  .hwmain
+  {
+    background-color: #F3C623;
+    margin:8vh 0;
+    color: #212A42;
+    margin-bottom: 0;
+  }
+  .hwhead
+  {
+    font-size: 30px;
+    text-align: left;
+    padding-top: 4vh;
+    padding-bottom:0;
+    margin-left: 11vw;
+  }
+  .holderhw
+  {
+    margin:0 7vw;
+    margin-top: 5vh;
+    border-radius: 25px;
+  }
+  .hwtext{
+    text-align: left;
+    margin: 2vh 4vw;
+    margin-bottom: 0;
+    font-weight: 600;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:768px)
+{
+.heading-classname{
+  font-size: 30px;
+  padding-bottom: 0;
+  text-align: center;
+
+}
+.heading-classname-container{
+    margin: 0 auto;
+    margin-top: 4vh;
+}
+
+.teacher-name
+{
+  font-size: 20px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+.start-class{
+ float: right;
+ margin-right: 6vw;
+ margin-top: 0;
+ font-size: 20px;
+ border-radius: 25px;
+ background-color: #FF623F;
+}
+.teachername{
+ font-size: 20px;
+ color: rgba(0, 0, 0, 0.5);
+ margin-left: 7vw;
+}
+
+
+.discussioncontainer
+{
+border: 1px solid #000000;
+
+}
+.text-head-discussion
+{
+font-size: 25px;
+color:#569AFF;
+text-align: center;
+}
+.head-discussion
+{
+border: 1px solid #000000;
+}
+.studentdp{
+  width:120px;
+    height: 120px;
+    margin-left: 4vw;
+    margin-top: 3vh;
+  border-radius: 50%;
+  float: left;
+
+}
+.dicussioncontainerp
+{
+  margin-top: 5vh;
+  margin-left: 10vw;
+  text-align:right;
+  margin-right: 2vw;
+}
+.discussionhr{
+  margin:0 3vw;
+  border: 1.5px solid rgba(0,0,0,0.5);
+}
+.actualdiscussion{
+
+  height: 400px;
+  overflow: scroll;
+  border: 2px solid #ccc;
+  }
+  .thumbs{
+    margin-left: 50%;
+    margin-bottom: 1vh;
+  }
+  .reply{
+    float: right;
+    margin-right: 7vw;
+    color: #000000;
+  }
+  .formsendmesage{
+    margin-top: 2vh;
+    width: 45vw;
+    height: 40px;
+    border-radius: 25px;
+    margin-left: 8vw;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 3vh;
+    font-size: 12px;
+  }
+  .sending
+  {
+    float: right;
+    margin-top: 2vh;
+    margin-right: 6vw;
+    line-height: 25px;
+    font-size: 20px;
+  }
+
+  .updatemain
+  {
+    background-color: #DAFFFB;
+    margin:8vh 0;
+    color: rgba(0,0,0,0.5);
+    margin-bottom: 0;
+  }
+  .updatehead
+  {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 4vh;
+    padding-bottom:0;
+    color: #FF623F;
+  }
+  .holderupdate
+  {
+    margin:0 7vw;
+    margin-top: 5vh;
+    border: 1.5px solid #FF623F;
+  }
+  .updatetext{
+    margin: 2vh 4vw;
+    margin-bottom: 0;
+  }
+/* ASSIGNMENT */
+.hwmain
+{
+  background-color: #F3C623;
+  margin:8vh 0;
+  color: #212A42;
+  margin-bottom: 0;
+}
+.hwhead
+{
+  font-size: 30px;
+  text-align: left;
+  padding-top: 4vh;
+  padding-bottom:0;
+  margin-left: 11vw;
+}
+.holderhw
+{
+  margin:0 7vw;
+  margin-top: 5vh;
+  border-radius: 25px;
+}
+.hwtext{
+  text-align: left;
+  margin: 2vh 4vw;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+}

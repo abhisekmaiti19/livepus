@@ -1,0 +1,409 @@
+section{
+	padding: 100px 0;
+}
+
+/*=========================================================================================================================
+|   |    |   |     |      |     |    |    |   START UPPER PAGE |    |    |    |      |     |     |      |     |      |    |
+===========================================================================================================================*/                                                  
+.e-education_front_page{
+	background: white;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-size: cover;
+	overflow: hidden;
+	top:0vh;
+	
+}
+
+.e-education_front_page .e-education_front_page_circle-1{
+	background: #FF0033;
+	width: 15vw;
+	height: 15vw;
+	border-radius: 50%;
+	position: relative;
+	float: right;
+	margin-right: 2vw;
+	margin-top: -16vh;
+}
+
+.e-education_front_page .e-education_front_page_circle-2{
+	background: #FF0033;
+	width: 15vw;
+	height: 15vw;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0;
+}
+
+.e-education_front_page .e-education_cover_page{
+	background: white;
+	width: 88%;
+	height: 78%;
+	position: absolute;
+	margin-left: 5.5vw;
+	top: 14vh;
+	box-shadow: 0.8vw 0.8vw 1.5vw 0 rgba(0,0,0,0.7),-0.8vw -0.8vw 1.5vw 0 rgba(0,0,0,0.6);
+	overflow: hidden;
+}
+
+.e-education_front_pagemain-1 .e-education_cover_page .navigation_e-education_page{
+	width: 35%;
+	height: 8vh;
+	float: right;
+	background: none;
+}
+
+.e-education_front_page .e-education_cover_page .navigation_e-education_page ul{
+	margin-right: 7vw;
+	float: right;
+}
+
+.e-education_front_page .e-education_cover_page .navigation_e-education_page ul li{
+	display: inline-block;
+    font-size: 2.2vw;
+    font-weight: bold;
+    margin-right: 0.8vw;
+    position: relative;
+    line-height: 5vh;
+}
+
+.e-education_front_page .e-education_cover_page .navigation_e-education_page ul li a{
+    color:black;
+    text-decoration: none;
+}
+
+.e-education_front_page .e-education_cover_page .navigation_e-education_page ul li a:hover{
+	background:#FF0033;
+}
+
+.e-education_front_page .e-education_cover_page .e-education_front_page_circle-3{
+	width: 18vw;
+	height: 18vw;
+	border-radius: 50%;
+	position: absolute;
+	background: #003366;
+	top:-19vh;
+	left:4vw;
+	opacity: 0.6;
+}
+
+.e-education_front_page .e-education_cover_page .heading_e-education_front_page{
+	font-family: serif;
+	font-size: 9vh;
+	margin-left: 20vw;
+	color: #FF0033;
+	font-weight: bold;
+	margin-top: 15vh;
+}
+
+.e-education_front_page .e-education_cover_page .button_box_front_page{
+	padding-bottom: 20px;
+	padding-left: 310px;
+	width: 100%;
+	height: 8vh;
+	display: inline-block;
+}
+
+.e-education_front_page .e-education_cover_page .student_login_signup_button{
+	width: 15vw;
+	height: 10vh;
+	background: #007bb6;
+	color: white;
+	border:none;
+	border-radius: 5vh;
+	font-size: 20px;
+}
+
+.e-education_front_page .e-education_cover_page .student_login_signup_button:hover{
+	background: #FF0033;
+}
+
+.e-education_front_page .e-education_cover_page .institution_login_signup_button{
+	width: 15vw;
+	height: 10vh;
+	background: #007bb6;
+	color: white;
+	border:none;
+	border-radius: 6vh;
+	font-size: 20px;
+	margin-left: 5vw;
+}
+.e-education_front_page .e-education_cover_page .institution_login_signup_button:hover{
+	background: #FF0033;
+}
+
+.e-education_front_page .e-education_cover_page .e-education_front_page_image_box{
+	width: 50%;
+	height: 50%;
+	margin-top: 4vh;
+	margin-left: 19vw;
+	background: none;
+}
+
+
+.e-education_front_page .e-education_cover_page .e-education_front_page_image_box .e-education_front_page_image{
+	width: 50%;
+	height: 50%;
+	position: absolute;
+}
+
+.e-education_front_page .e-education_cover_page .e-education_front_page_circle-4{
+	width: 17vw;
+    height: 17vw;
+    background: #003366;
+    margin-top: -35vh;
+    margin-right: -9vw;
+    float: right;
+    border-radius: 50%;
+    opacity: 0.6;	
+}
+
+
+/*=========================================================================================================================
+|   |    |   |     |      |     |    |    |   END UPPER PAGE |    |    |    |      |     |     |      |     |      |    |
+===========================================================================================================================*/ 
+
+
+
+/*=========================================================================================================================
+|   |    |   |     |      |     |    |    |   START MID PAGE |    |    |    |      |     |     |      |     |      |    |
+===========================================================================================================================*/ 
+
+.mid_page_e-education{
+	background: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-size: cover;
+	overflow: hidden;
+	top:128vh;
+}
+
+.mid_page_e-education .mid_page_e-education_circle-1{
+	background: #FF0033;
+	width: 15vw;
+	height: 15vw;
+	border-radius: 50%;
+	position: relative;
+	float: right;
+	margin-right: 2vw;
+	margin-top: -16vh;
+}
+
+.mid_page_e-education .mid_page_e-education_circle-2{
+	background: #FF0033;
+	width: 15vw;
+	height: 15vw;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0;
+}
+
+.mid_page_e-education .e-education_mid_cover_page{
+	background: white;
+	width: 90%;
+	height: 80%;
+	position: absolute;
+	margin-left: 4vw;
+	top: 14vh;
+	box-shadow: 0.8vw 0.8vw 1.5vw 0 rgba(0,0,0,0.7),-0.8vw -0.8vw 1.5vw 0 rgba(0,0,0,0.6);
+	overflow: hidden;
+}
+
+
+.mid_page_e-education .e-education_mid_cover_page .e-education_mid_page_image_box_upper{
+	width: 30%;
+	height: 20%;
+	margin-top: 5vh;
+	margin-left: 5vw;
+	background: red;
+}
+
+.mid_page_e-education .e-education_mid_cover_page .e-education_mid_page_image_box_upper .e-education_mid_page_image_upper{
+	width: 30vw;
+	height:auto;
+	position: absolute;
+}
+
+.mid_page_e-education .e-education_mid_cover_page .e-education_mid_page_paragraph_box_upper{
+	width: 42%;
+	height: 42%;
+	background: none;
+	float: right;
+	margin-top:-25vh;
+	margin-right: 10vh;
+}
+.mid_page_e-education .e-education_mid_cover_page .e-education_mid_page_paragraph_box_upper h1{
+	font-size: 6vh;
+	margin-left: 5vw;
+	font-family: serif;
+	color: #0e7dec;
+}
+
+.mid_page_e-education .e-education_mid_cover_page .e-education_mid_page_paragraph_box_upper p{
+	font-size: 3vh;
+}
+
+.mid_page_e-education .e-education_mid_cover_page .e-education_mid_page_image_box_lower{
+	width: 40vw;
+	height: 40vh;
+	margin-top: 27vh;
+	background: none;
+	margin-left: 46vw;
+}
+
+.mid_page_e-education .e-education_mid_cover_page .e-education_mid_page_image_box_lower img{
+   width: 40vw;
+   height: 40vh;
+}
+
+.mid_page_e-education .e-education_mid_cover_page .e-education_mid_page_paragraph_box_lower{
+	width: 42%;
+	height: 42%;
+	background: none;
+	margin-top:-40vh;
+	margin-left: 10vh;
+}
+
+.mid_page_e-education .e-education_mid_cover_page .e-education_mid_page_paragraph_box_lower h1{
+	font-size: 5vh;
+	margin-left: 5vw;
+	font-family: serif;
+	color: #0e7dec;
+}
+
+.mid_page_e-education .e-education_mid_cover_page .e-education_mid_page_paragraph_box_lower p{
+	font-size: 3vh;
+}
+	
+
+/*=========================================================================================================================
+|   |    |   |     |      |     |    |    |   END MID PAGE |    |    |    |      |     |     |      |     |      |    |
+===========================================================================================================================*/ 
+
+
+
+/*=========================================================================================================================
+|   |    |   |     |      |     |    |    |   START LOWER PAGE |    |    |    |      |     |     |      |     |      |    |
+===========================================================================================================================*/ 
+.lower_page_e-education{
+	background: none;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-size: cover;
+	overflow: hidden;
+	top:256vh;
+}
+
+.lower_page_e-education .lower_e-education_circle-1{
+	background: #FF0033;
+	width: 15vw;
+	height: 15vw;
+	border-radius: 50%;
+	position: relative;
+	float: right;
+	margin-right: 2vw;
+	margin-top: -16vh;
+}
+
+.lower_page_e-education .lower_e-education_circle-2{
+	background: #FF0033;
+	width: 15vw;
+	height: 15vw;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0;
+}
+
+.lower_page_e-education .e-education_lower_cover_page{
+	background: white;
+	width: 90%;
+	height: 80%;
+	position: absolute;
+	margin-left: 4vw;
+	top: 14vh;
+	box-shadow: 0.8vw 0.8vw 1.5vw 0 rgba(0,0,0,0.7),-0.8vw -0.8vw 1.5vw 0 rgba(0,0,0,0.6);
+	overflow: hidden;
+}
+
+.lower_page_e-education .e-education_lower_cover_page .lower_e-education_circle-3{
+	width: 18vw;
+	height: 18vw;
+	border-radius: 50%;
+	position: absolute;
+	background: #003366;
+	top:-19vh;
+	left:6vw;
+	opacity: 0.6;
+}
+
+.lower_page_e-education .e-education_lower_cover_page .lower_page_heading_box{
+	width: 50%;
+	height: 20%;
+	background: none;
+	margin-top: 10vh;
+	margin-left: 23vw;
+}
+
+.lower_page_e-education .e-education_lower_cover_page .lower_page_heading_box h1{
+	font-size: 10vh;
+	text-align: center;
+	font-family: serif;
+	color: #FF0033;
+}
+
+.lower_page_e-education .e-education_lower_cover_page .lower_page_paragraph_box{
+	width: 80%;
+	height: 50%;
+	background: none;
+	margin-left: 10vw;
+	margin-top: -10vh;
+}
+
+.lower_page_e-education .e-education_lower_cover_page .lower_page_paragraph_box p{
+	font-size: 4vh;
+	font-family: serif;
+}
+
+.lower_page_e-education .e-education_lower_cover_page .lower_e-education_circle-4{
+	width: 17vw;
+    height: 17vw;
+    background: #003366;
+    margin-top: -20vh;
+    margin-right: -9vw;
+    float: right;
+    border-radius: 50%;
+    opacity: 0.6;	
+}
+
+
+/*=========================================================================================================================
+|   |    |   |     |      |     |    |    |   END LOWER PAGE |    |    |    |      |     |     |      |     |      |    |
+===========================================================================================================================*/
+
+
+/*=========================================================================================================================
+|   |    |   |     |      |     |    |    |   START FOOTER SECtion |    |    |    |      |     |     |      |     |      |    
+===========================================================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========================================================================================================================
+|   |    |   |     |      |     |    |    |   END FOOTER SECtion |    |    |    |      |     |     |      |     |      |    
+===========================================================================================================================*/
